@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>С новым годом!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <div class="visible">
+                <img class="visible__img" id="snowball" src="img/snowball.png" alt="Шар">
+                <div class="visible__text">Кликни на сани</div>
+            </div>
+            <div class="hidden" id="hidden">
+                <img src="img/santa.png" alt="Санта" class="hidden__img">
+                <h2 id="name"></h2>
+                <div class="hidden__text">
+                    Желаю в новом вам году<br>
+                    Поймать удачу на ходу<br>
+                    Всех удивлять, все успевать,<br>
+                    Смеяться и не унывать. <br>
+                    Любить, надеяться и верить<br>
+                    И счастье на себя примерить, <br>
+                    И никогда вам не тужить, <br>
+                    И просто интересно жить! <br>
+                </div>
+            </div>
+            <form class="form" id="myForm">
+                <div class="form__row">
+                    <div class="input__name">Имя</div><input type="text" name="userName">
+                </div>
+                <div class="form__row">
+                    <div class="input__name">Цвет текста</div><input type="text" name="textColor">
+                </div>
+                <div class="form__row">
+                    <div class="input__name">Размер текста</div><input type="text" name="textSize">
+                </div>
+                <div class="form__row form__btn"></div>
+                <button class="btn" name="btn">Применить</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
